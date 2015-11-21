@@ -120,6 +120,7 @@
   font-size: 13px;
   line-height: 18px;
   -webkit-font-smoothing: inherit;
+  width: 100%; /* JFLY */
 }
 .selectize-input,
 .selectize-control.single .selectize-input.input-active {

@@ -1226,7 +1226,7 @@
 			$dropdown.on('mouseenter', '[data-selectable]', function() { return self.onOptionHover.apply(self, arguments); });
 			$dropdown.on('mousedown click', '[data-selectable]', function() { return self.onOptionSelect.apply(self, arguments); });
 			watchChildEvent($control, 'mousedown', '*:not(input)', function() { return self.onItemSelect.apply(self, arguments); });
-			autoGrow($control_input);
+			//JFLY autoGrow($control_input);
 	
 			$control.on({
 				mousedown : function() { return self.onMouseDown.apply(self, arguments); },
